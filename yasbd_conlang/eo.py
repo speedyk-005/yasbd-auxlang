@@ -10,7 +10,7 @@ class EoRules(Rules):
 
     REFERENCE_ABBRVS = Rules.REFERENCE_ABBRVS | {
         "ĉ", "eld", "p", "pag", "kp", "vd", "v",
-        "rim", "resp", "ndk",
+        "rim", "resp", "nr", "ndk",
     }
 
     INLINE_ONLY_ABBRVS = Rules.INLINE_ONLY_ABBRVS | {
