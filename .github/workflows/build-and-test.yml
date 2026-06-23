@@ -18,16 +18,16 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v7
 
-    - name: Install uv and set Python version
-      uses: astral-sh/setup-uv@v8
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
-        activate-environment: true
 
     - name: Install Dependencies
       run: |
-        uv pip install -e ".[dev]"
+        python -m pip install --upgrade pip
+        pip install -e ".[dev]"
 
     - name: Test with Pytest
       run: |
-        uv run pytest -v --tb=short
+        pytest -v --tb=short
