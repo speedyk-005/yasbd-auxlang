@@ -6,7 +6,7 @@ authors = [
   { name = "speedyk_005", email = "speedy40115719@gmail.com" }
 ]
 
-license = "MPL-2.0"
+license = "MIT"
 readme = "README.md"
 requires-python = ">=3.11"
 
@@ -30,7 +30,7 @@ keywords = [
 ]
 
 dependencies = [
-  "yasbd-lib>=0.7.0",
+  "yasbd-lib>=0.8.0",
 ]
 
 [project.optional-dependencies]
