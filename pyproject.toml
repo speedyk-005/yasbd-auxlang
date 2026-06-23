@@ -1,5 +1,5 @@
 [project]
-name = "yasbd-conlang"
+name = "yasbd-auxlang"
 version = "0.1.0"
 description = "Constructed language support for yasbd-lib — Esperanto, Interlingua, and more."
 authors = [
@@ -30,7 +30,7 @@ keywords = [
 ]
 
 dependencies = [
-  "yasbd-lib>=0.8.0",
+  "yasbd-lib>=0.7.0",
 ]
 
 [project.optional-dependencies]
@@ -40,9 +40,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/speedyk-005/yasbd-conlang"
-Repository = "https://github.com/speedyk-005/yasbd-conlang"
-Issues = "https://github.com/speedyk-005/yasbd-conlang/issues"
+Homepage = "https://github.com/speedyk-005/yasbd-auxlang"
+Repository = "https://github.com/speedyk-005/yasbd-auxlang"
+Issues = "https://github.com/speedyk-005/yasbd-auxlang/issues"
 
 [build-system]
 requires = [
@@ -53,12 +53,12 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 packages = [
-    "yasbd_conlang",
+    "yasbd_auxlang",
 ]
 
 [tool.pytest.ini_options]
 minversion = "7.4"
-addopts = "--cov=yasbd_conlang --cov-report=term-missing:skip-covered --durations=5"
+addopts = "--cov=yasbd_auxlang --cov-report=term-missing:skip-covered --durations=5"
 testpaths = ["tests"]
 python_files = "test_*.py"
 

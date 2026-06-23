@@ -1,4 +1,4 @@
-from yasbd_conlang.ie import IeRules
+from yasbd_auxlang.ie import IeRules
 
 
 class IaRules(IeRules):

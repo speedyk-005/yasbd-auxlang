@@ -8,7 +8,7 @@ from tests import ALL_TEST_DATA
 from yasbd import BoundaryDetector, register_lang_packs
 
 # Register self
-register_lang_packs(["yasbd_conlang"])
+register_lang_packs(["yasbd_auxlang"])
 
 
 @pytest.mark.parametrize("lang,test_data", ALL_TEST_DATA.items())
