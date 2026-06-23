@@ -6,4 +6,8 @@ Usage:
     register_lang_packs(["yasbd_conlang"])
 """
 
-PROFILES: list = []
+from yasbd_conlang.eo import EoRules
+
+PROFILES = [
+    EoRules,
+]
