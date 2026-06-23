@@ -1,0 +1,84 @@
+[project]
+name = "yasbd-conlang"
+version = "0.1.0"
+description = "Constructed language support for yasbd-lib — Esperanto, Interlingua, and more."
+authors = [
+  { name = "speedyk_005", email = "speedy40115719@gmail.com" }
+]
+
+license = "MPL-2.0"
+readme = "README.md"
+requires-python = ">=3.11"
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Text Processing",
+  "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+keywords = [
+  "sentence-segmentation", "sentence-boundary-detection", "sbd",
+  "multilingual", "constructed-language", "conlang",
+  "esperanto", "interlingua", "text-processing"
+]
+
+dependencies = [
+  "yasbd-lib>=0.8.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.5",
+  "pytest-cov>=6.2.1",
+  "ruff>=0.14.14",
+]
+
+[project.urls]
+Homepage = "https://github.com/speedyk-005/yasbd-conlang"
+Repository = "https://github.com/speedyk-005/yasbd-conlang"
+Issues = "https://github.com/speedyk-005/yasbd-conlang/issues"
+
+[build-system]
+requires = [
+    "setuptools>=64",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = [
+    "yasbd_conlang",
+]
+
+[tool.pytest.ini_options]
+minversion = "7.4"
+addopts = "--cov=yasbd_conlang --cov-report=term-missing:skip-covered --durations=5"
+testpaths = ["tests"]
+python_files = "test_*.py"
+
+[tool.coverage.run]
+omit = []
+
+[tool.ruff]
+target-version = "py311"
+line-length = 95
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F403", "I001"]
+
+[tool.ruff.format]
+exclude = [".git", ".venv", "build", "dist"]
+
+[tool.uv]
+link-mode = "copy"
