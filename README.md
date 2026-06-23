@@ -2,7 +2,7 @@
 
 **Auxiliary language profiles for [yasbd-lib](https://github.com/speedyk-005/yasbd).**
 
-Adds sentence segmentation support for constructed international auxiliary languages (auxlangs). Drop-in — register and go.
+Adds sentence segmentation support for constructed international auxiliary languages (auxlangs). register and go.
 
 ## Languages
 
