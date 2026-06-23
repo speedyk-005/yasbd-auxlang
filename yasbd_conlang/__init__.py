@@ -7,7 +7,9 @@ Usage:
 """
 
 from yasbd_conlang.eo import EoRules
+from yasbd_conlang.ie import IeRules
 
 PROFILES = [
     EoRules,
+    IeRules,
 ]
