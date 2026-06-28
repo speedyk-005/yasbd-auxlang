@@ -1,3 +1,5 @@
+# yasbd-auxlang 
+
 [![Python Version](https://img.shields.io/badge/Python-3.11%20--%203.14-blue)](https://www.python.org/downloads/)
 [![PyPI](https://img.shields.io/pypi/v/yasbd-auxlang?kill_cache=1)](https://pypi.org/project/yasbd-auxlang)
 [![Tests](https://img.shields.io/github/actions/workflow/status/speedyk-005/yasbd-auxlang/build-and-test.yml?branch=main&label=tests)](https://github.com/speedyk-005/yasbd-auxlang/actions)
@@ -5,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-# yasbd-auxlang
+
 
 **Auxiliary language profiles for [yasbd-lib](https://github.com/speedyk-005/yasbd).**
 
@@ -13,7 +15,7 @@ Adds sentence segmentation support for constructed international auxiliary langu
 
 ## Languages
 
-| Code | Language       | Status |
+|code | Language       | Status |
 |------|----------------|--------|
 | `eo` | Esperanto      | ✅     |
 | `ie` | Interlingue    | ✅     |
