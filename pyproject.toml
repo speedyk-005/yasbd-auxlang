@@ -26,7 +26,8 @@ classifiers = [
 keywords = [
   "sentence-segmentation", "sentence-boundary-detection", "sbd",
   "multilingual", "constructed-language", "conlang",
-  "esperanto", "interlingua", "text-processing"
+  "esperanto", "interlingua", "text-processing",
+  "lang-pack",
 ]
 
 dependencies = [
