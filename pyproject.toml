@@ -1,6 +1,6 @@
 [project]
 name = "yasbd-auxlang"
-version = "0.1.0"
+version = "0.1.1"
 description = "Constructed language support for yasbd-lib — Esperanto, Interlingua, and more."
 authors = [
   { name = "speedyk_005", email = "speedy40115719@gmail.com" }
