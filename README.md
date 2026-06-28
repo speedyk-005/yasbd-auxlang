@@ -15,7 +15,7 @@ Adds sentence segmentation support for constructed international auxiliary langu
 
 ## Languages
 
-|code | Language       | Status |
+|Code | Language       | Status |
 |------|----------------|--------|
 | `eo` | Esperanto      | ✅     |
 | `ie` | Interlingue    | ✅     |
