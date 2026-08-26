@@ -32,11 +32,8 @@ pip install yasbd-auxlang
 
 ```python
 from yasbd import BoundaryDetector
-from yasbd.rules import register_lang_packs
 
-register_lang_packs(["yasbd_auxlang"])
-
-detector = BoundaryDetector("eo")
+detector = BoundaryDetector(lang="eo", external_lang_packs = ["yasbd_auxlang"])
 sentences = list(detector.segment("Saluton mondo! Kiel vi fartas? Mi bone."))
 # ["Saluton mondo!", "Kiel vi fartas?", "Mi bone."]
 ```
