@@ -16,6 +16,6 @@ TEST_DATA = [
     # Parentheses and quotes
     'Li diris: "Mi venos morgaŭ." kaj foriris.',
     'Li diris: "Saluton!"| Kaj ŝi respondis.',
-    'Kiel vi fartas?" li demandis.| " Bone," ŝi diris.',
+    '"Kiel vi fartas?" li demandis.| " Bone," ŝi diris.',
     "Ŝi demandis (Kial vi ploras?) sed li silentis.",
 ]
